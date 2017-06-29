@@ -1,0 +1,5 @@
+[B]1.0.1[/B]
+- Added Exuary theme
+
+[B]1.0.0[/B]
+- Initial version
