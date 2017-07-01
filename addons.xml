@@ -107,4 +107,22 @@
   </extension>
 </addon>
 
+<addon id="plugin.audio.onlinestream" version="1.0.0" name="Online Stream" provider-name="aky01">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Online Stream addon for Kodi</summary>
+		<description lang="en">OnlineStream.hu Magyarország legnagyobb stream toplistája már Kodi-n is.</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<website>http://www.onlinestream.hu</website>
+		<platform>all</platform>
+		<language></language>
+		<forum></forum>
+		<email></email>
+	</extension>
+</addon>
 </addons>
