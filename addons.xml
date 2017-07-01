@@ -1,46 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons>
-<addon id="plugin.video.exodushu" version="0.3" name="ExodusHU" provider-name="ExodusHU">
+<addon id="plugin.video.exoshark" version="1.0.0" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.exodus.artwork" version="1.0.4" />
-		<import addon="script.exodushu.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.exoshark.artwork" version="1.0.0" />
+		<import addon="script.exoshark.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.32" />
+		<import addon="script.module.metahandler" version="2.9.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">ExodusHU</summary>
-		<description lang="en">Exodus kiegészítő magyar kiszolgálókkal kiegészítve.</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<description lang="hu">Exodus kiegészítő magyar kiszolgálókkal kiegészítve.</description>
-		<disclaimer lang="hu">A készítő semmilyen felelősséget nem vállal az addon-nal kapcsolatban.</disclaimer>
+		<summary lang="en">ExoShark</summary>
+		<summary lang="hu">ExoShark</summary>
 		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>- Kiszolgalo frissitesek
+- Exodus 3.1.22 frissitesek</news>
 	</extension>
 </addon>
 
-<addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
+<addon id="script.exoshark.artwork" version="1.0.0" name="ExoShark Artwork" provider-name="double beretta">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Addon</summary>
-		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Themes for the ExoShark Addon</summary>
+		<description>Themes for ExoShark are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="script.exodushu.metadata" version="1.0.0" name="ExodusHU Metadata" provider-name="ExodusHU">
+<addon id="script.exoshark.metadata" version="1.0.0" name="ExoShark Metadata" provider-name="double beretta">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the ExodusHU Addon</summary>
-		<description>Metadata for ExodusHU are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Metadata for the ExoShark Addon</summary>
+		<description>Metadata for ExoShark are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
