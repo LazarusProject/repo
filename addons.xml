@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<addons>
 <addon id="plugin.video.exoshark" version="1.0.0" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
