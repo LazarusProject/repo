@@ -1,3 +1,7 @@
+[B]1.0.1[/B]
+- Angol és Magyar provider-ek az alapértelmezettek
+- hiba javítások
+
 [B]1.0.0[/B]
 - Kiszolgalo frissitesek
 - Exodus 3.1.22 frissitesek
