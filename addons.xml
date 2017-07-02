@@ -135,4 +135,19 @@
 		<email></email>
 	</extension>
 </addon>
+
+<addon id="plugin.video.cardshare" name="Cardshare" version="1.0.6" provider-name="Squidward Tentacles">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Cardshare</summary>
+		<language>hu</language>
+		<description lang="en">A kiegészítővel a cardshare.cc oldalról letöltött ingyenes csatornalistát tudod kezelni. A csatornalista letöltéséhez a Cardshare M3U Downloader kiegészítő szükséges, amit a repository szolgáltatások mappájából tudsz telepíteni.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
