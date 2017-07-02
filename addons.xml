@@ -150,4 +150,19 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="service.cardshare.downloader"
+       name="Cardshare M3U Downloader"
+       version="1.1.2"
+       provider-name="Squidward Tentacles">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Cardshare.cc IPTV M3U Downloader</summary>
+    <description lang="en">Cardshare.cc ingyenes IPTV lista automatikus letöltése. Használatához regisztráció szükséges. https://www.cardshare.cc/</description>
+  </extension>
+</addon>
 </addons>
