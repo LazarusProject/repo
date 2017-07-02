@@ -180,4 +180,20 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="plugin.video.mozicsillag" name="Mozicsillag" version="0.1.1" provider-name="Mr. Hankey">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mozicsillag</summary>
+		<language>hu</language>
+		<description lang="en">A Mozicsillag kiegészítővel egyszerűen férhetsz hozzá a mozicsillag.cc oldalon található tartalomhoz.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
