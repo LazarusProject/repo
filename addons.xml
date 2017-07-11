@@ -216,4 +216,50 @@
 		<news>- Mufaj szerinti lastazas opcio</news>
 	</extension>
 </addon>
+
+<addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Exodus Addon</summary>
+		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.exodushu.metadata" version="1.0.0" name="ExodusHU Metadata" provider-name="ExodusHU">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the ExodusHU Addon</summary>
+		<description>Metadata for ExodusHU are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.exodushu" version="0.4" name="ExodusHU" provider-name="ExodusHU">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.exodus.artwork" version="1.0.4" />
+		<import addon="script.exodushu.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.33" />
+		<import addon="script.module.metahandler" version="2.7.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ExodusHU</summary>
+		<description lang="en">Exodus kiegészítő magyar kiszolgálókkal kiegészítve.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<description lang="hu">Exodus kiegészítő magyar kiszolgálókkal kiegészítve.</description>
+		<disclaimer lang="hu">A készítő semmilyen felelősséget nem vállal az addon-nal kapcsolatban.</disclaimer>
+		<platform>all</platform>
+		<news>- Hibajavítás</news>
+	</extension>
+</addon>
 </addons>
