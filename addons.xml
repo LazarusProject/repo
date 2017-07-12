@@ -284,4 +284,37 @@
 		<news>Last Version Made From The TVA Guys, If anything changes will be listed here, this version should fix install errors</news>
 	</extension>
 </addon>
+
+<addon id="plugin.video.adulthideout" name="AdultHideout" version="0.7.9" provider-name="Vashielxxx">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>
+v 0.7.9 09-07-2017 - fixed Youporn.com - fixed Yes.xxx - fixed Datoporn.com - fixed Xvideos.com Categories, Pornstars, added ranking - fixed Redtube.com, added sorting, channels, etc. - minor fixes, Fanart, Kodi 18 ready, etc..
+        </news>
+        <summary>[COLOR red]XXX[/COLOR] Porn videos</summary>
+        <description>
+Internet [COLOR red]XXX Porn Video[COLOR white] Streams.
+    
+[COLOR red][B]WARNING:[/B][COLOR red]Only for adults[/COLOR]	
+
+Email:
+adulthideout@xxx.com[/COLOR]	
+
+		</description>
+		<disclaimer>
+		</disclaimer>	
+		<platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>    
+		<email></email>
+		<mainsource>Lazarus</mainsource>    
+		<source></source> 		
+    </extension>
+</addon>
 </addons>
