@@ -1,0 +1,351 @@
+[B]3.1.19[/B]
+- Fix Python < 2.7 bug in subtitles
+- Fix Python < 2.7 bug in sources.py
+
+[B]3.1.18[/B]
+- Fix .pyc inlusion in zip
+
+[B]3.1.17[/B]
+- Updated German providers
+- Updated Korean providers
+- Tweaked localized trailers
+- Fixed trakt support
+
+[B]3.1.16[/B]
+- Updated existing providers
+- Added and Updated German providers
+- Updated Korean providers
+- Fixed Russian providers
+- Fixed library update in some cases
+
+[B]3.1.15[/B]
+- Updated existing providers
+- Added and Updated German providers
+- Removed dead providers
+- Fixed Russian providers
+- Added library integration
+- Fixed trakt watch/unwatched on seasons
+
+[B]3.1.14[/B]
+- Updated existing providers
+- Added and Updated German providers
+- Added Russian providers
+- Fixed issue with Trakt lists
+- Fixed issue with GoogleDoc-Links
+
+[B]3.1.13[/B]
+- Updated existing providers
+- Added and Updated German providers
+- Removed omdbapi dependence
+
+[B]3.1.12[/B]
+- Updated existing providers
+- Updated german providers
+- Tweaked localized trailers
+- Fixed issue with Trakt login
+
+[B]3.1.11[/B]
+- Tweaked German providers
+- Updated Polish providers (homik)
+- Fix Trakt sorting
+- Added logging for Trakt and Web-Requests
+
+[B]3.1.10[/B]
+- Added new and fix existing providers (satanuke)
+- Added and Updated German providers
+- Updated Polish providers (homik)
+- Add Anmie genre
+- Tweaked Trakt sorting
+
+[B]3.1.9[/B]
+- Added new and fix existing providers (satanuke, John Doe)
+- Updated German providers
+- Tweaked new Debrid-Code
+
+[B]3.1.8[/B]
+- Updated existing providers (satanuke)
+- Added and Updated French providers
+- Added and Updated German providers
+- Updated Polish providers (homik)
+- Add Blazingfast support
+- Remove old Debrid-Code
+- Note: You might have to reconfigure your Debrid Service in URLResolver Settings
+
+[B]3.1.7[/B]
+- Updated existing providers (satanuke, somebody)
+- Tweaked German providers
+- Added Mega-Debrid
+
+[B]3.1.6[/B]
+- Updated existing providers (satanuke)
+- Tweaked French providers
+- Tweaked German providers
+- Added Korean providers (Martopotamus)
+- Fixed website-parser
+- Use gzip on requests
+
+[B]3.1.5[/B]
+- HotFix for 3.1.4 (fix Next-Page-Bug)
+
+[B]3.1.4[/B]
+- Updated existing providers
+- Removed dead providers
+- Added Polish providers (homik)
+- Added imdb/tvdb-id to directory-items
+
+[B]3.1.3[/B]
+- HotFix for 3.1.2 (fix Caching-Bug)
+
+[B]3.1.2[/B]
+- Updated existing providers
+- Tweaked French providers
+- Removed dead providers
+- Add Play-Random (PickJones)
+- Add Documentary movie genre (Amante)
+- Add Debrid-Link.FR
+- Tweaked website-parser
+
+[B]3.1.1[/B]
+- Updated existing providers
+- Tweaked French providers
+- Update Translation
+- Fix skipping for hosters with captchas
+
+[B]3.1.0[/B]
+- Updated existing providers
+- Added new providers and fix existing German providers
+- Added French providers (Powergrid2000)
+- Tweaked view option
+- Tweaked languages movie section and added languages tvshow section
+- Tweaked Providers Language support
+- Tweaked Trakt episode handling (Gobberwart)
+
+[B]3.0.5[/B]
+- Updated existing providers
+
+[B]3.0.3[/B]
+- Updated existing providers
+
+[B]3.0.2[/B]
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]3.0.1[/B]
+- Tweaked indexers
+- Tweaked sorting of streams
+- Tweaked labels of available streams
+- Added support for localized trailers when available
+- Tweaked Providers Language support
+- NOTE: It has to be set again for non English options
+- Tweaked Providers caching
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]3.0.0[/B]
+- Re-work of provider retrieval
+- Re-work of stream directories
+- Re-work of stream resolving
+- Fixed issues with various modules
+- Added option for localized providers
+- Added German providers (Viper4k)
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]2.0.26[/B]
+- Updated providers
+
+[B]2.0.24[/B]
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]2.0.23[/B]
+- Tweaked indexers
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]2.0.22[/B]
+- Tweaked provider retrieval
+- Tweaked stream resolving
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]2.0.21[/B]
+- Tweaked metadata and playback
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]2.0.20[/B]
+- Updated indexers
+- Tweaked pagination of Trakt lists
+- Tweaked flatten of tv shows (for external addons and library)
+- Tweaked artwork of episode lists
+- Updated providers
+
+[B]2.0.18[/B]
+- Fixed issue with Trakt Progress (missing tv shows)
+- Tweaked metadata retrieval
+- Tweaked indexers
+- Updated providers
+
+[B]2.0.14[/B]
+- Tweaked metadata timeouts
+
+[B]2.0.13[/B]
+- Updated indexers
+- Added new providers
+- Updated existing providers
+- Added Polish translation
+- Added Portuguese translation
+
+[B]2.0.12[/B]
+- Fixed issue with Trakt Progress (hidden items)
+- Fixed issue with urlresolver's openload pair dialog
+- Tweaked search and caching of providers
+- Updated providers
+
+[B]2.0.11[/B]
+- Added openload to filehosts with captchas
+- NOTE: Filehosts witch captchas can be disabled
+- Updated existing providers
+- Added new providers
+
+[B]2.0.10[/B]
+- Updated existing providers
+- Added new providers
+
+[B]2.0.9[/B]
+- Updated providers
+
+[B]2.0.8[/B]
+- Updated providers
+
+[B]2.0.7[/B]
+- Updated indexers
+- Updated providers
+- Code cosmetics
+
+[B]2.0.6[/B]
+- Updated providers
+- Code cosmetics
+
+[B]2.0.5[/B]
+- Updated providers
+- Fixed issue with custom lists
+- Added Serbian (Cyrillic) translation
+- Added Hungarian translation
+
+[B]2.0.4[/B]
+- Updated providers
+- Fixed issue with networks
+- Added Croatian translation
+- Added Dutch translation
+- Added Hebrew translation
+- Added Slovenian translation
+- Code cosmetics
+
+[B]2.0.3[/B]
+- Fixed issue with movie listings
+- Fixed issue with tv show listings
+- Added French translation
+- Added German translation
+- Added Spanish translation
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]2.0.2[/B]
+- Code cosmetics
+
+[B]2.0.1[/B]
+- Code cosmetics
+
+[B]2.0.0[/B]
+- Tweaked all context menus
+- Tweaked all addon settings
+- Tweaked all translations
+- Tweaked resolvering
+- Re-work of addon for Krypton compatibility
+- Replaced My lists with My Movies and My TV shows
+- Added setting of viewtypes on tools section
+- Added languages movie section
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]1.3.7[/B]
+- Updated providers
+
+[B]1.3.4[/B]
+- Updated providers
+
+[B]1.3.3[/B]
+- Changed order of providers in addon settings
+- Updated existing providers
+- Removed dead providers
+- Added new providers
+
+[B]1.3.2[/B]
+- Updated providers
+
+[B]1.3.1[/B]
+- Updated indexers
+- Added season Trakt indicators
+- Tweaked Trakt indicators caching
+- Tweaked sorting of Trakt lists
+- Updated current providers
+- Added new debrid providers
+
+[B]1.3.0[/B]
+- Updated indexers
+- Re-work of Trakt lists
+- Better handling of Trakt accounts
+- Tweaked lists for the new default skin
+- Updated current providers
+- Added 6 new providers
+- Depend on URLresolver 3.0
+- Tweaked resolvering
+
+[B]1.2.2[/B]
+- Updated providers
+
+[B]1.2.1[/B]
+- Updated indexers
+- Updated providers
+- Tweaked mismatch handling
+- Tweaked resolvering
+- Re-work of Trakt authorization
+- Fixed issue with RealDebrid authorization
+- Added option for flatten TV show seasons
+- Added Exuary theme
+- Updated translations
+
+[B]1.2.0[/B]
+- Updated indexers
+- Updated providers
+- Tweaked mismatch handling
+- Fixed urlresolver compatibility
+- Tweaked Trakt episodes
+- Updated translations
+
+[B]1.1.1[/B]
+- Updated translations
+- Updated providers
+
+[B]1.1.0[/B]
+- Updated indexers
+- Tweaked Trakt progress
+- Updated translations
+- Updated providers
+
+[B]1.0.1[/B]
+- Code cosmetics
+
+[B]1.0.0[/B]
+- Initial version
