@@ -1,6 +1,14 @@
+﻿[B]1.0.3[/B]
+- Covenant 1.1.1 frissítések
+- Webmoovies kiszolgáló frissités
+- Hibajavítás
+
+[B]1.0.2[/B]
+- Találati lista rendszerezése
+
 [B]1.0.1[/B]
 - Angol és Magyar provider-ek az alapértelmezettek
-- hiba javítások
+- Hibajavítások
 
 [B]1.0.0[/B]
 - Kiszolgalo frissitesek
