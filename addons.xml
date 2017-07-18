@@ -167,57 +167,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cartoonshark" version="1.0.2" name="Cartoon Shark" provider-name=" - provider name goes here - ">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Cartoon Shark</summary>
-		<description lang="en">Szinkronos mesék és mesefilmek online.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.mozicsillag" name="Mozicsillag" version="0.1.1" provider-name="Mr. Hankey">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver" version="3.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Mozicsillag</summary>
-		<language>hu</language>
-		<description lang="en">A Mozicsillag kiegészítővel egyszerűen férhetsz hozzá a mozicsillag.cc oldalon található tartalomhoz.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.tvshark.hu" version="1.1.3" name="TV Shark" provider-name=" - provider name goes here - ">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">TV Shark</summary>
-		<description lang="en">A TV Shark kiegészítő segítségével rengeteg magyar szinkronos sorozat között böngészhetsz.</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>- Mufaj szerinti lastazas opcio</news>
-	</extension>
-</addon>
-
 <addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -378,5 +327,50 @@ adulthideout@xxx.com[/COLOR]
     <email>romanvm@yandex.ua</email>
     <source>https://github.com/romanvm/script.module.simpleplugin</source>
   </extension>
+</addon>
+
+<addon id="plugin.audio.spotify" version="1.0.25" name="Spotify" provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.six" version="1.9.0"/>
+        <import addon="script.module.unidecode" version="0.4.14"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>audio</provides>
+	</extension>
+    <extension point="xbmc.python.library" library="spotifyservice.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Unofficial Spotify music plugin for Kodi</summary>
+        <description>Requires a Spotify premium account.</description>
+        <disclaimer>This product uses SPOTIFY(R) CORE but is not endorsed, certified or otherwise approved in any way by Spotify. Spotify is the registered trade mark of the Spotify Group.</disclaimer>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.tuneinradio" name="TuneIn Radio" version="3.0.0" provider-name="brianhornsby">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="bg">Радио TuneIn</summary>
+		<summary lang="en">TuneIn Radio</summary>
+		<summary lang="es">TuneIn Radio</summary>
+		<description lang="bg">Радио TuneIn е безплатна услуга, която ви позволява да слушате всичко, независимо къде се намирате. Каквото желаете - музика, спорт или новини. Радио TuneIn предлага над 50 000 станции от които да избирате. Можете да намерите местните станции или да откриете нови станции от целия свят. Радио TuneIn ви отвежда точно където желаете да сте.</description>
+		<description lang="en">TuneIn Radio is a free service that lets you listen to anything in the world from wherever you are. Whether you want to hear music, sports, news or current events. TuneIn Radio offers over 50,000 stations for you to choose from. From finding local stations to discovering new stations from around the world, TuneIn Radio brings you to where you want to be.</description>
+		<description lang="es">TuneIn Radio es un servicio gratuito que te permite escuchar cualquier cosa del mundo desde donde te encuentres. Si deseas escuchar música, deportes, noticias o eventos actuales. TuneIn Radio ofrece más de 50,000 estaciones radiales para escoger, desde estaciones locales hasta descubrir nuevas estaciones alrededor del mundo, TuneIn Radio te lleva a donde tu quieras estar.</description>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=119315</forum>
+		<website>http://brianhornsby.com/kodi_addons/tuneinradio</website>
+		<source>https://github.com/brianhornsby/plugin.audio.tuneinradio</source>
+	</extension>
 </addon>
 </addons>
