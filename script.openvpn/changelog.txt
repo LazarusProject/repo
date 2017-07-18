@@ -1,0 +1,55 @@
+*** 3.0.0 ***
+Updated plugin to use Kodi name. Updated copyright date. [1a88f6f]
+
+*** 2.1.0 ***
+Updated xbmc.python version. Fixed issue with reading running OpenVPN configuration on OpenELEC. [0e132c6]
+Changed country flag images to https://github.com/koppi/iso-country-flags-svg-collection. [3dc6b7e]
+
+*** 2.0.1 ***
+Fixes for issues #8 and #9.
+
+*** 2.0.0 ***
+Complete rewrite of code and the way the script works.
+
+*** 1.2.0 ***
+Added ability to specify an ovpn file.
+
+*** 1.1.2 ***
+Display VPN identifier in notification when starting OpenVPN.
+
+*** 1.1.1 ***
+Only display settings VPN entries if vpn id is specified, otherwise ignore.
+Updated code to pep8 coding style.
+Changed ip location api being used by addon.
+
+*** 1.1.0 ***
+Added option to define vpn connections in addons settings, rather than in a file.
+
+*** 1.0.5 ***
+Added images to notification.
+Added ability to call vpn connection directly by specifying vpn index as argument.
+
+*** 1.0.0 ***
+Set addon version number to 1.0.0.
+Changed tun-mtu value to 1500.
+
+*** 0.6.0 ***
+Fixed geolocation issue.
+
+*** 0.5.0 ***
+Fixed TCP issues.
+
+*** 0.4.0 ***
+Major changes to how openvpn-xbmc works.
+
+*** 0.3.0 ***
+
+Added timelimit for configs.
+
+*** 0.2.0 ***
+
+Minor code changes.
+
+*** 0.1.0 ***
+
+Initial release.
