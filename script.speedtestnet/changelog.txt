@@ -1,0 +1,36 @@
+[B][COLOR=FF56ADDA]1.0.0 - 28APRIL16[/COLOR][/B]
+• Make advert video info provided from server a straight video URL (more reliable)
+• Obfuscate
+
+[B][COLOR=FF56ADDA]1.0.0~beta4 - 12APRIL16[/COLOR][/B]
+• Only play advert video at end of test if device is not an ARNU Box product
+• Stop advert video playback on exit of addon
+• Added Google analytics
+
+[B][COLOR=FF56ADDA]1.0.0~beta3 - 14FEB16[/COLOR][/B]
+• Re-arrange the results page to make room for video window.
+• Auto-play advert video at the end of test.
+ - Video will play based on server selection from list of youtube videos.
+ - Video will be displayed in a smaller scaled window on the speedtest results page.
+• Re-write python again to make it easier to shuffle the various GUI components around.
+
+[B][COLOR=FF56ADDA]1.0.0~beta2 - 13FEB16[/COLOR][/B]
+• Added banner image on right hand side of addon window.
+• Implement random selection from array of banner images (server side). 
+  Selection is offset by percentage of how likely that image should be shown
+
+[B][COLOR=FF56ADDA]1.0.0~beta1 - 10FEB16[/COLOR][/B]
+• Rewrite add-on UI with full immersive xbmcgui.Window modeled after the original ookla speedtest.net Android app.
+ - Add graphical gauge to represent download and upload speed.
+ - Show detailed download and upload speed real time.
+ - Add save results by default to addon_data dir.
+
+[B][COLOR=FF56ADDA]0.0.3 - 01OCT15[/COLOR][/B]
+• Rebrand with sponsor information.
+
+[B][COLOR=FF56ADDA]0.0.2 - 17SEP15[/COLOR][/B]
+• Fix issue causing speedtest to only run once and then fail.
+• Fix issue with results not displaying correctly on all displays
+
+[B][COLOR=FF56ADDA]0.0.1 - 17SEP15[/COLOR][/B]
+• initial Release
