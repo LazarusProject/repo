@@ -511,4 +511,21 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
     <description lang="en">Establish a connection to a VPN provider and automatically switch VPN locations based on the add-on being used.</description>
   </extension>
 </addon>
+
+<addon id="plugin.video.movieshark" name="Movie Shark" version="2.0.3" provider-name="Murdock - vazzemiko">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="3.0.36"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="hu">Movie Shark Videó Kiegészítő</summary>
+		<summary lang="en">Movie Shark Video Add-on</summary>
+		<description lang="hu">Nézd meg a legfrissebb filmeket és sorozatokat a Movie Shark segítségével. Ez az első Kodi kiegészítő amivel egyszerűen férhetsz hozzá magyar nyelvű vagy magyar feliratos tartalmakhoz. Itt nincsenek idegesítő reklámok és felugráló ablakok. Használhatod bármilyen eszközön, ahol a Kodi elérhető.</description>
+		<description lang="en">Nézd meg a legfrissebb filmeket és sorozatokat a Movie Shark segítségével. Ez az első Kodi kiegészítő amivel egyszerűen férhetsz hozzá magyar nyelvű vagy magyar feliratos tartalmakhoz. Itt nincsenek idegesítő reklámok és felugráló ablakok. Használhatod bármilyen eszközön, ahol a Kodi elérhető.</description>
+	</extension>
+</addon>
 </addons>
