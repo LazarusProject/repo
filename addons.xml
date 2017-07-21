@@ -32,17 +32,18 @@
 	</extension>
 </addon>
 
-<addon id="script.exoshark.artwork" version="1.0.1" name="ExoShark Artwork" provider-name="double beretta">
+<addon id="script.exodus.artwork" version="1.0.6" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the ExoShark Addon</summary>
-		<description>Themes for ExoShark are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Themes for the Exodus Addon</summary>
+		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
+
 
 <addon id="script.exoshark.metadata" version="1.0.0" name="ExoShark Metadata" provider-name="double beretta">
 	<requires>
@@ -74,7 +75,7 @@
 
 <addon id="script.module.metahandler" 
      name="metahandler" 
-     version="2.7.0" 
+     version="2.9.1" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />

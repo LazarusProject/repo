@@ -1,0 +1,18 @@
+[B]1.0.5[/B]
+- Added new icon
+
+[B]1.0.4[/B]
+- Made addon a module
+
+[B]1.0.3[/B]
+- Made addon a program addon
+
+[B]1.0.2[/B]
+- Added new icons
+- Made addon an image resource
+
+[B]1.0.1[/B]
+- Added Exuary theme
+
+[B]1.0.0[/B]
+- Initial version
