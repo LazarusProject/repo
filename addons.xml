@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.0.3" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.0.4" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -26,9 +26,8 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Covenant 1.1.1 frissítések
-- Webmoovies kiszolgáló frissités
-- Hibajavítás</news>
+		<news>- Új kiszolgáló (FILMEZZ) - használatához regisztráció szükséges.
+- Kiszolgáló frissítés</news>
 	</extension>
 </addon>
 
@@ -166,18 +165,6 @@
     <summary lang="en">Cardshare.cc IPTV M3U Downloader</summary>
     <description lang="en">Cardshare.cc ingyenes IPTV lista automatikus letöltése. Használatához regisztráció szükséges. https://www.cardshare.cc/</description>
   </extension>
-</addon>
-
-<addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Addon</summary>
-		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="script.exodushu.metadata" version="1.0.0" name="ExodusHU Metadata" provider-name="ExodusHU">

@@ -1,4 +1,8 @@
-﻿[B]1.0.3[/B]
+﻿[B]1.0.4[/B]
+- Új kiszolgáló (FILMEZZ) - használatához regisztráció szükséges.
+- Kiszolgáló frissítés
+
+[B]1.0.3[/B]
 - Covenant 1.1.1 frissítések
 - Webmoovies kiszolgáló frissités
 - Hibajavítás
