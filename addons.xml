@@ -616,4 +616,26 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Xibalba's addons</summary>
 	</extension>
 </addon>
+
+<addon id="script.plex.free"
+       name="Plex free"
+       version="0.0.102"
+       provider-name="Plex">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"></extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Plex for Kodi supporting free accounts</summary>
+        <description lang="en">Unofficial Plex for Kodi add-on</description>
+         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>    </extension>
+</addon>
 </addons>
