@@ -68,7 +68,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.36" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.38" provider-name="tvaddons.ag, Eldorado, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -235,7 +235,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.adulthideout" name="AdultHideout" version="0.7.9" provider-name="Vashielxxx">
+<addon id="plugin.video.adulthideout" name="AdultHideout" version="0.8.0" provider-name="Vashiel">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -244,7 +244,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <news>
-v 0.7.9 09-07-2017 - fixed Youporn.com - fixed Yes.xxx - fixed Datoporn.com - fixed Xvideos.com Categories, Pornstars, added ranking - fixed Redtube.com, added sorting, channels, etc. - minor fixes, Fanart, Kodi 18 ready, etc..
+v 0.8.0 23-07-2017 - fixed xhamster.com - fixed yespornplease.com - fixed beeg (Thanks Digonly) - fixed youjizz.com - minor changes
         </news>
         <summary>[COLOR red]XXX[/COLOR] Porn videos</summary>
         <description>
@@ -252,8 +252,11 @@ Internet [COLOR red]XXX Porn Video[COLOR white] Streams.
     
 [COLOR red][B]WARNING:[/B][COLOR red]Only for adults[/COLOR]	
 
+[COLOR white]Github:
+https://github.com/Vashiel/repository.adulthideout
+
 Email:
-adulthideout@xxx.com[/COLOR]	
+adulthideout@yandex.com[/COLOR]	
 
 		</description>
 		<disclaimer>
@@ -263,7 +266,7 @@ adulthideout@xxx.com[/COLOR]
 		<forum></forum>
 		<website></website>    
 		<email></email>
-		<mainsource>Lazarus</mainsource>    
+		<mainsource>https://github.com/Vashiel/repository.adulthideout</mainsource>    
 		<source></source> 		
     </extension>
 </addon>
@@ -495,7 +498,7 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 
 <addon id="service.vpn.manager"
        name="VPN Manager for OpenVPN"
-       version="4.0.9"
+       version="4.1.0"
        provider-name="Zomboided">
   <requires>
     <import addon="xbmc.python" version="2.7.0"/>
