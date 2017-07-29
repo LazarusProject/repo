@@ -1,4 +1,9 @@
-﻿[B]1.0.4[/B]
+﻿[B]1.0.5[/B]
+- FILMEZZ kiszolgáló eltávolítva
+- Új kiszolgáló (SOROZATKATALOGUS)
+- Covenant 1.1.4 frissítések: Kiszolgáló frissítések, Még nem vetített epizódok megjelenítése - kikapcsolható a beállításokban
+
+[B]1.0.4[/B]
 - Új kiszolgáló (FILMEZZ) - használatához regisztráció szükséges.
 - Kiszolgáló frissítés
 
