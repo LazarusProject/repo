@@ -333,9 +333,8 @@ adulthideout@yandex.com[/COLOR]
   </extension>
 </addon>
 
-<addon id="plugin.audio.spotify" version="1.0.25" name="Spotify" provider-name="marcelveldt and slukk">
+<addon id="plugin.audio.spotify" version="1.0.25.1" name="Spotify" provider-name="marcelveldt and slukk">
     <requires>
-        <import addon="repository.marcelveldt" version="1.0.0"/>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
         <import addon="script.module.requests" version="2.3.0"/>
