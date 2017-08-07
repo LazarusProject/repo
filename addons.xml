@@ -550,15 +550,15 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.010" 
-	     provider-name="Xibalba">
+	     version="3.00.025" 
+	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xibalba"/>
+    <import addon="script.module.echo"/>
     <import addon="script.xxxodus.artwork"/>
     <import addon="script.xxxodus.scrapers"/>
     <import addon="script.module.urlresolver"/>
-    <import addon="script.module.adultresolver"/>
+    <import addon="script.module.urlresolver.xxx"/>
     <import addon="script.module.pyxbmct"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
