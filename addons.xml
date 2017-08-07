@@ -497,7 +497,7 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 
 <addon id="service.vpn.manager"
        name="VPN Manager for OpenVPN"
-       version="4.1.0"
+       version="4.1.1"
        provider-name="Zomboided">
   <requires>
     <import addon="xbmc.python" version="2.7.0"/>
