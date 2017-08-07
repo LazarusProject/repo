@@ -1,4 +1,8 @@
-﻿[B]1.0.5[/B]
+﻿[B]1.0.6[/B]
+- MOOVIECC kiszolgáló eltávolítva
+- Új kiszolgáló (NETMOZI)
+
+[B]1.0.5[/B]
 - FILMEZZ kiszolgáló eltávolítva
 - Új kiszolgáló (SOROZATKATALOGUS)
 - Covenant 1.1.4 frissítések: Kiszolgáló frissítések, Még nem vetített epizódok megjelenítése - kikapcsolható a beállításokban
