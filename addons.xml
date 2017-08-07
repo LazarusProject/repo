@@ -533,6 +533,22 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 	</extension>
 </addon>
 
+<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.1" provider-name="Lex Murphy">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MovieSharkCC</summary>
+		<language>hu</language>
+		<description lang="en">A MovieSharkCC kiegészítővel egyszerűen férhetsz hozzá a moovie.cc oldalon található tartalomhoz.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
 	     version="3.00.010" 
