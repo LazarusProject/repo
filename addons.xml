@@ -653,4 +653,60 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
          <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <platform>all</platform>    </extension>
 </addon>
+
+<addon id="plugin.video.covenanthu" version="1.1.8" name="CovenantHU" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.covenanthu.artwork" version="1.0.0" />
+		<import addon="script.covenanthu.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.36" />
+		<import addon="script.module.metahandler" version="2.9.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">CovenantHU</summary>
+		<summary lang="hu">CovenantHU</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]CovenantHU Movies and TV[/B][CR][CR]</description>
+		<description lang="hu">[I]Új Generáció[/I][CR][CR][B]CovenantHU Filmek és Sorozatok[/B][CR][CR]</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B]1.1.8[/B][CR]Code cosmetics</news>
+	</extension>
+</addon>
+
+<addon id="script.covenanthu.artwork" version="1.0.2" name="CovenantHU Artwork" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the CovenantHU Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.covenanthu.metadata" version="1.0.0" name="CovenantHU Metadata" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the CovenantHU Addon</summary>
+		<description>Metadata for CovenantHU are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
