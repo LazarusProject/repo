@@ -1,4 +1,15 @@
-﻿[B]1.0.6[/B]
+﻿[B]1.0.7[/B]
+- Új kiszolgáló (ALLUCHU) - használatához API kulcs szükséges (accounts.alluc.com)
+- MOZICSILLAG kiszolgáló frissítés
+- Covenant 1.1.10 frissítések:
+--- Átdolgozott találati lista
+--- Kiszolgáló frissítések (DAYT, DIZIGOLD, KINGMOVIES, ONSERIES, STREAMFLIX, STREAMLORD, SERIESONLINE)
+--- Új kiszolgálók (ALLUC, GOSTREAM)
+--- A moziban vetített filmek elrejtése a listákról (az utolsó 90 napban megjelent filmek esetén),
+kivéve a következő szekciókban: Trakt/IMDB Listák, Jelenleg a mozikban, Keresés (endegélyezhető a beállításokban)
+--- Hibajavítás
+
+[B]1.0.6[/B]
 - MOOVIECC kiszolgáló eltávolítva
 - Új kiszolgáló (NETMOZI)
 
