@@ -539,7 +539,7 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.1" provider-name="Lex Murphy">
+<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.2" provider-name="Lex Murphy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="3.0.0"/>
