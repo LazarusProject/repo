@@ -1,3 +1,16 @@
+[B]1.1.10[/B]
+- fixed kingmovies
+- removed pmovies and watch5s
+- streamflix url fix
+- fixed streamlord
+- changed fanarttv search behavior to execute also without personal api key
+
+[B]1.1.9[/B]
+- updated streamflix url
+- set default action to Directory
+- added gostream source
+- added container refreshs to syncronize watched status with Trakt (thanks to rw86)
+
 [B]1.1.8[/B]
 - CF fix (thanks to gujal)
 - added alluc to DE sources
