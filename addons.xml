@@ -649,7 +649,7 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver.xxx" version="1.0.07" name="Adult Resolver SMU Extension" provider-name="jsergio, Echo Coder">
+<addon id="script.module.urlresolver.xxx" version="1.0.08" name="Adult Resolver SMU Extension" provider-name="jsergio, Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
         	<import addon="script.module.urlresolver" version="3.0.38" />
