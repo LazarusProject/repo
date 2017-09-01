@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.0.7" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.0.8" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -26,14 +26,10 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Új kiszolgáló (ALLUCHU) - használatához API kulcs szükséges (accounts.alluc.com)
-- MOZICSILLAG kiszolgáló frissítés
-- Covenant 1.1.10 frissítések:
---- Átdolgozott találati lista
---- Kiszolgáló frissítések (DAYT, DIZIGOLD, KINGMOVIES, ONSERIES, STREAMFLIX, STREAMLORD, SERIESONLINE)
---- Új kiszolgálók (ALLUC, GOSTREAM)
---- A moziban vetített filmek elrejtése a listákról (az utolsó 90 napban megjelent filmek esetén),
-kivéve a következő szekciókban: Trakt/IMDB Listák, Jelenleg a mozikban, Keresés (endegélyezhető a beállításokban)
+		<news>- Covenant 1.1.12 frissítések:
+--- Találatlista-frissítés opció lejátszás befejezésekor (endegélyezhető a beállításokban)
+--- Kiszolgáló frissítések (PROJECTFREE, PUBFILMTO, PUTLOCKER, RLSBB, SCENEDOWN, SERIESONLINE, SEZONLUKDIZI)
+--- Új kiszolgáló (IMDARK)
 --- Hibajavítás</news>
 	</extension>
 </addon>
@@ -539,7 +535,7 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.2" provider-name="Lex Murphy">
+<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.3" provider-name="Lex Murphy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="3.0.0"/>

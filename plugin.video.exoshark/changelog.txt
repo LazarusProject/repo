@@ -1,4 +1,11 @@
-﻿[B]1.0.7[/B]
+﻿[B]1.0.8[/B]
+- Covenant 1.1.12 frissítések:
+--- Találatlista-frissítés opció lejátszás befejezésekor (endegélyezhető a beállításokban)
+--- Kiszolgáló frissítések (PROJECTFREE, PUBFILMTO, PUTLOCKER, RLSBB, SCENEDOWN, SERIESONLINE, SEZONLUKDIZI)
+--- Új kiszolgáló (IMDARK)
+--- Hibajavítás
+
+[B]1.0.7[/B]
 - Új kiszolgáló (ALLUCHU) - használatához API kulcs szükséges (accounts.alluc.com)
 - MOZICSILLAG kiszolgáló frissítés
 - Covenant 1.1.10 frissítések:
