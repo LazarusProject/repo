@@ -683,8 +683,8 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 </addon>
 
 <addon id="script.plex.free"
-       name="Plex free"
-       version="0.0.102"
+       name="Plex Free"
+       version="0.1.1"
        provider-name="Plex">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
