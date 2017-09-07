@@ -1,8 +1,14 @@
-﻿[B]1.0.8[/B]
+﻿[B]1.0.9[/B]
+- NETMOZI kiszolgáló frissítés
+- HEVC kódolású források szűrése (kikapcsolt állapotban nem jelennek meg a HEVC kódolású források - kikapcsolható a beállításokban)
+- CAM minőségű források szűrése (kikapcsolt állapotban nem jelennek meg a CAM minőségű források - kikapcsolható a beállításokban)
+- Covenant 1.1.13 frissítések: Német és lengyel kiszolgáló frissítések
+
+[B]1.0.8[/B]
 - Covenant 1.1.12 frissítések:
 --- Találatlista-frissítés opció lejátszás befejezésekor (endegélyezhető a beállításokban)
 --- Kiszolgáló frissítések (PROJECTFREE, PUBFILMTO, PUTLOCKER, RLSBB, SCENEDOWN, SERIESONLINE, SEZONLUKDIZI)
---- Új kiszolgáló (IMDARK)
+--- Új kiszolgálók (IMDARK)
 --- Hibajavítás
 
 [B]1.0.7[/B]

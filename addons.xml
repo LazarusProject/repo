@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.0.8" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.0.9" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -26,11 +26,10 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Covenant 1.1.12 frissítések:
---- Találatlista-frissítés opció lejátszás befejezésekor (endegélyezhető a beállításokban)
---- Kiszolgáló frissítések (PROJECTFREE, PUBFILMTO, PUTLOCKER, RLSBB, SCENEDOWN, SERIESONLINE, SEZONLUKDIZI)
---- Új kiszolgáló (IMDARK)
---- Hibajavítás</news>
+		<news>- NETMOZI kiszolgáló frissítés
+- HEVC kódolású források szűrése (kikapcsolt állapotban nem jelennek meg a HEVC kódolású források - kikapcsolható a beállításokban)
+- CAM minőségű források szűrése (kikapcsolt állapotban nem jelennek meg a CAM minőségű források - kikapcsolható a beállításokban)
+- Covenant 1.1.13 frissítések: Német és lengyel kiszolgáló frissítések</news>
 	</extension>
 </addon>
 
