@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.0.9" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.1.0" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -26,10 +26,15 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- NETMOZI kiszolgáló frissítés
-- HEVC kódolású források szűrése (kikapcsolt állapotban nem jelennek meg a HEVC kódolású források - kikapcsolható a beállításokban)
-- CAM minőségű források szűrése (kikapcsolt állapotban nem jelennek meg a CAM minőségű források - kikapcsolható a beállításokban)
-- Covenant 1.1.13 frissítések: Német és lengyel kiszolgáló frissítések</news>
+		<news>- Új kiszolgáló (HDFILMEK)
+- Covenant 1.1.14-1.1.16 frissítések:
+--- A beállításokban a Legújabb filmek opciónál új választható lista került be: TV-filmek.
+(Ez az opció a legújabb moziban játszódó filmeket és a legújabb TV-filmeket listázza.)
+--- A beállításokban az ALLUC kiszolgálóhoz megadható az eredmények maximáls száma
+--- Új angol (CMOVIES, WATCH5S) és német (KINOKING, MOVIE2K-AC, MOVIE2K-AG, MOVIE2Z, MOVIETOWN) kiszolgálók
+--- Kiszolgáló frissítések (angol, német, lengyel kiszolgálók)
+--- Minden televíziótársaság egyedi logót kapott (Sorozatok >> Televíziótársaságok)
+--- Hibajavítás</news>
 	</extension>
 </addon>
 

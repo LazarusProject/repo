@@ -1,4 +1,15 @@
-﻿[B]1.0.9[/B]
+﻿[B]1.1.0[/B]
+- Új kiszolgáló (HDFILMEK)
+- Covenant 1.1.14-1.1.16 frissítések:
+--- A beállításokban a Legújabb filmek opciónál új választható lista került be: TV-filmek.
+(Ez az opció a legújabb moziban játszódó filmeket és a legújabb TV-filmeket listázza.)
+--- A beállításokban az ALLUC kiszolgálóhoz megadható az eredmények maximáls száma
+--- Új angol (CMOVIES, WATCH5S) és német (KINOKING, MOVIE2K-AC, MOVIE2K-AG, MOVIE2Z, MOVIETOWN) kiszolgálók
+--- Kiszolgáló frissítések (angol, német, lengyel kiszolgálók)
+--- Minden televíziótársaság egyedi logót kapott (Sorozatok >> Televíziótársaságok)
+--- Hibajavítás
+
+[B]1.0.9[/B]
 - NETMOZI kiszolgáló frissítés
 - HEVC kódolású források szűrése (kikapcsolt állapotban nem jelennek meg a HEVC kódolású források - kikapcsolható a beállításokban)
 - CAM minőségű források szűrése (kikapcsolt állapotban nem jelennek meg a CAM minőségű források - kikapcsolható a beállításokban)
