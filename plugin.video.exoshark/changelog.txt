@@ -1,4 +1,16 @@
-﻿[B]1.1.0[/B]
+﻿[B]1.1.2[/B]
+- Hibajavítás
+
+[B]1.1.1[/B]
+- Új kiszolgáló (NONSTOPMOZI)
+- NETMOZI kiszolgáló frissítés
+- ALLUCHU kiszolgáló frissítés
+- Hibajavítás
+- Covenant 1.1.17 frissítések:
+--- Új német (LICHTSPIELHAUS), spanyol (MEGAPELIS, PELICULASDK, PELISPLUSTV) és olasz (ALLUCIT) kiszolgálók
+--- Kiszolgáló frissítések (angol, német, lengyel kiszolgálók)
+
+[B]1.1.0[/B]
 - Új kiszolgáló (HDFILMEK)
 - Covenant 1.1.14-1.1.16 frissítések:
 --- A beállításokban a Legújabb filmek opciónál új választható lista került be: TV-filmek.
