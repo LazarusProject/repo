@@ -1,4 +1,14 @@
-﻿[B]1.1.2[/B]
+﻿[B]1.1.3[/B]
+- Új kiszolgáló (FILMGO)
+- NETMOZI kiszolgáló frissítés
+- MOZICSILLAG kiszolgáló frissítés
+- Covenant Module 1.00.006 frissítések:
+--- Változott a sorozatok rendezése a 'Legújabb epizódok' menüpontban:
+a listában legutóbb megtekintett sorozat epizódja kerül legfelülre (ha engedélyezve van a Trakt)
+--- Új angol (ALLRLS), német (STREAM-TO), spanyol (PEPECINE) kiszolgálók
+--- Angol kiszolgáló frissítések (ALLUC, DIRECTDL, SEZONLUKDIZI)
+
+[B]1.1.2[/B]
 - Hibajavítás
 
 [B]1.1.1[/B]
