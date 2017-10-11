@@ -1,4 +1,12 @@
-﻿[B]1.1.3[/B]
+﻿[B]1.1.4[/B]
+- Új kiszolgáló (MOZICLUB)
+- FILMGO kiszolgáló frissítés
+- Covenant 1.1.18-1.1.20 frissítések:
+--- Változtatható a Trakt Előrehaladás rendezésének módja (kiválasztható a beállításokban)
+--- Új angol (TINKLEPAD) és lengyel kiszolgálók
+--- Kiszolgáló frissítések (angol és lengyel kiszolgálók)
+
+[B]1.1.3[/B]
 - Új kiszolgáló (FILMGO)
 - NETMOZI kiszolgáló frissítés
 - MOZICSILLAG kiszolgáló frissítés
