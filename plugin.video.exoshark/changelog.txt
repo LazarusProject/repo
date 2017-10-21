@@ -1,4 +1,16 @@
-﻿[B]1.1.4[/B]
+﻿[B]1.1.5[/B]
+- Új kiszolgáló (FILMTORNADO)
+- FILMEKMOST kiszolgáló eltávolítva (megszűnt a forrásoldal)
+- Covenant 1.1.21-1.1.23 frissítések:
+--- Extra információk jelennek meg a találatlistában a forrásokról, ha elérhetők (kikapcsolható a beállításokban)
+--- Több információ jelenik meg a folyamatjelző ablakon a források betöltése közben
+--- Átdolgozott találatlista (a debrid linkek más sorrendben jelennek meg, a HD jelzés 720P-re módosult)
+--- Ki lehet választani a prémium (debrid) források színét (változtatható a beállításokban)
+--- Bekerült egy alapértelmezett TMDb API kulcs (a beállításokban módosítható)
+--- Új angol (123HULU, MOVIEGO, MOVIESGOLD, RJSMOVIE), spanyol és görög kiszolgálók
+--- Kiszolgáló frissítések (angol és görög kiszolgálók)
+
+[B]1.1.4[/B]
 - Új kiszolgáló (MOZICLUB)
 - FILMGO kiszolgáló frissítés
 - Covenant 1.1.18-1.1.20 frissítések:

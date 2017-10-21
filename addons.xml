@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.1.4" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.1.5" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -26,12 +26,16 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Új kiszolgáló (MOZICLUB)
-- FILMGO kiszolgáló frissítés
-- Covenant 1.1.18-1.1.20 frissítések:
---- Változtatható a Trakt Előrehaladás rendezésének módja (kiválasztható a beállításokban)
---- Új angol (TINKLEPAD) és lengyel kiszolgálók
---- Kiszolgáló frissítések (angol és lengyel kiszolgálók)</news>
+		<news>- Új kiszolgáló (FILMTORNADO)
+- FILMEKMOST kiszolgáló eltávolítva (megszűnt a forrásoldal)
+- Covenant 1.1.21-1.1.23 frissítések:
+--- Extra információk jelennek meg a találatlistában a forrásokról, ha elérhetők (kikapcsolható a beállításokban)
+--- Több információ jelenik meg a folyamatjelző ablakon a források betöltése közben.
+--- Átdolgozott találatlista (a debrid linkek más sorrendben jelennek meg, a HD jelzés 720P-re módosult)
+--- Ki lehet választani a prémium (debrid) források színét (változtatható a beállításokban)
+--- Bekerült egy alapértelmezett TMDb API kulcs (a beállításokban módosítható)
+--- Új angol (123HULU, MOVIEGO, MOVIESGOLD, RJSMOVIE), spanyol és görög kiszolgálók
+--- Kiszolgáló frissítések (angol és görög kiszolgálók)</news>
 	</extension>
 </addon>
 
