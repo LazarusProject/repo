@@ -1,11 +1,19 @@
-[B]Version 4.0.06 (Sep 20, 2017)[/B]
+[B]Version 4.0.08 (Oct 22, 2017)[/B]
 - Code Base Changes:
-    - Updated jsunpack
-    - Removed JS2PY
+    - Pairing added for vshare.eu
+    - Fix for auto_update with non UTF-8 characters
+    - Raise ResolverError on CountdownDialog cancellation and expiration
 - Resolvers Added:
-    - None
+    - rapidgator
+    - mehlizmovies.com
+    - vidics.tv
+    - videohost2.com
+    - hdvid.tv
 - Resolvers Fixed/Updated:
-    - Streamango
-    - Streamcherry
-    - Speedvid
-    - Indavideo
+    - flashx
+    - speedvid
+    - Speedvideo
+    - vodlock
+    - megamp4
+- Languages Added/Updated
+    - Updated Croatian language
