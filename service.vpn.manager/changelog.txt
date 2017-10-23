@@ -1,3 +1,22 @@
+v4.1.9
+- Fix cycle bug
+
+v4.1.8
+- Add pop up connection window
+
+v4.1.7
+- Optionally force a reconnection on wake
+- Add API to output current IP to home window
+
+v4.1.6
+- Avoid stopping local media when VPN changes
+
+v4.1.5
+- More debug to understand local media stopping playing when VPN changes
+
+v4.1.4
+- Quicker 10 second timeout for IP provider requests
+
 v4.1.3
 - Fix download but introduced in 4.1.2 for new installs/providers
 
