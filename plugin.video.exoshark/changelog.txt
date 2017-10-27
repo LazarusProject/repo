@@ -1,4 +1,21 @@
-﻿[B]1.1.5[/B]
+﻿[B]1.1.7[/B]
+- Új kiszolgáló (ONMOVIESFREE)
+- Kisebb hibajavítások
+- Covenant 1.1.25 frissítések:
+--- A keresések eltárolódnak
+--- Új angol kiszolgálók (MOVIE4K, SAVAZE)
+--- Kiszolgáló frissítések (angol és német kiszolgálók)
+
+[B]1.1.6[/B]
+- FILMTORNADO kiszolgáló frissítés
+- HDFILMEK kiszolgáló frissítés
+- Covenant 1.1.24 frissítések:
+--- Csökkent a kiszolgálók betöltésének ideje
+--- A háttérben futó folyamatjelzőn is több információ jelenik meg a források betöltése közben
+--- Új angol (MZMOVIES, SUNPRO) és lengyel kiszolgálók
+--- Angol kiszolgáló frissítések (MOVIE25, WATCHSERIES)
+
+[B]1.1.5[/B]
 - Új kiszolgáló (FILMTORNADO)
 - FILMEKMOST kiszolgáló eltávolítva (megszűnt a forrásoldal)
 - Covenant 1.1.21-1.1.23 frissítések:
