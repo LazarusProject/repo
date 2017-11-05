@@ -1,0 +1,47 @@
+V1.1.20
+KIZS: mostantól az urlresolver addon-t használja
+V1.1.10
+- Hiba javitas
+
+V1.1.9
+- Login fejlesztes
+- Karakterkorlat hiba javitva
+
+V1.1.8
+- Forras valtozas
+
+V1.1.7
+- Forras valtozas
+
+V1.1.6
+- Hianyzo HD verzio hiba javitva
+
+V1.1.5
+- URL feloldas javitva
+
+V1.1.4
+- URL feloldas javitva
+
+V1.1.3
+- Forras valtozas
+
+V1.1.2
+- Hibas jatekido megjelenites javitva
+
+V1.1.1
+- Letoltes funkcio
+
+V1.1.0
+- Bejelentkezesi lehetoseg
+- Fel es leiratkozas lehetosege (bejelentkezes utan elerheto)
+- Megnezendok lista kezelese (bejelentkezes utan elerheto)
+- Sajat videok mappa (bejelentkezes utan elerheto)
+- Automatikus megtekintett statusz vegigjatszott videoknal
+- Keresesi elozmenyek torolhetoek
+- Listazasi mod beallithato
+- Alapertelmezett felbontas beallithato (HD is elerheto)
+- Lejatszasi lista
+- Felnott tartalom elerheto
+
+V1.0.2
+- Elso verzio

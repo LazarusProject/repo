@@ -55,6 +55,21 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.indavideo" name="Indavideó" version="1.1.20" provider-name="Murdock, modded: KIZS">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Indavideó</summary>
+		<description lang="en">Magyarország egyik legnagyobb videó megosztó oldala.</description>
+	</extension>
+</addon>
+
 <addon id="script.exoshark.artwork" version="1.0.1" name="ExoShark Artwork" provider-name="double beretta">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
