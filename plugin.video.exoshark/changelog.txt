@@ -1,4 +1,19 @@
-﻿[B]1.1.7[/B]
+﻿[B]1.1.8[/B]
+- Új kiszolgáló (SRTV)
+- Új kiszolgáló (MOVSTREAM)
+- ONMOVIESFREE kiszolgáló frissítés
+- Új ikont kapott a kiegészítő
+- Változtatható a szinkron jelzésének színe (módosítható a beállításokban)
+- Az Eszközök menüpontban a Változáslistára kattintva megjelenik a kiegészítő teljes változáslitája
+- Hibajavítás: hibaüzenet megjelenítése, ha nincs elérhető stream
+- Kisebb hibajavítások
+- Covenant 1.1.26-1.1.28 és Covenant Module frissítések:
+--- Módosításra kerültek a folyamatjelzőn megjelenő információk (már a prémium forrásokat is külön jelzi)
+--- Új angol és francia kiszolgálók
+--- Kiszolgáló frissítések (angol, német és lengyel kiszolgálók)
+--- Nem működő kiszolgálók törölve
+
+[B]1.1.7[/B]
 - Új kiszolgáló (ONMOVIESFREE)
 - Kisebb hibajavítások
 - Covenant 1.1.25 frissítések:

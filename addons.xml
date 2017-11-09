@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.1.7" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.1.8" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
 		<import addon="script.exoshark.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.32" />
 		<import addon="script.module.metahandler" version="2.9.0" />
+		<import addon="script.module.requests" version="2.12.4" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exoshark.py">
 		<provides>video</provides>
@@ -26,12 +27,19 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Új kiszolgáló (ONMOVIESFREE)
+		<news>- Új kiszolgáló (SRTV)
+- Új kiszolgáló (MOVSTREAM)
+- ONMOVIESFREE kiszolgáló frissítés
+- Új ikont kapott a kiegészítő
+- Változtatható a szinkron jelzésének színe (módosítható a beállításokban)
+- Az Eszközök menüpontban a Változáslistára kattintva megjelenik a kiegészítő teljes változáslitája
+- Hibajavítás: hibaüzenet megjelenítése, ha nincs elérhető stream
 - Kisebb hibajavítások
-- Covenant 1.1.25 frissítések:
---- A keresések eltárolódnak
---- Új angol kiszolgálók (MOVIE4K, SAVAZE)
---- Kiszolgáló frissítések (angol és német kiszolgálók)</news>
+- Covenant 1.1.26-1.1.28 és Covenant Module frissítések:
+--- Módosításra kerültek a folyamatjelzőn megjelenő információk (már a prémium forrásokat is külön jelzi)
+--- Új angol és francia kiszolgálók
+--- Kiszolgáló frissítések (angol, német és lengyel kiszolgálók)
+--- Nem működő kiszolgálók törölve</news>
 	</extension>
 </addon>
 
