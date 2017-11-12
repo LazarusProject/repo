@@ -1,4 +1,11 @@
-﻿[B]1.1.8[/B]
+﻿[B]1.1.9[/B]
+- Új kiszolgáló (ONFILMEK)
+- ONLINEPONT kiszolgáló frissítés
+- Covenant 1.1.29-1.1.30 és Covenant Module frissítések:
+--- Új angol kiszolgálók (ULTRAHD, XMOVIES)
+--- Angol kiszolgáló frissítések (ALLRLS, DDLVALLEY, FLIXANITY, FMOVIED6, OPENLOADMOVIES, POPCORN, PUTLOCKER, RELEASEBB)
+
+[B]1.1.8[/B]
 - Új kiszolgáló (SRTV)
 - Új kiszolgáló (MOVSTREAM)
 - ONMOVIESFREE kiszolgáló frissítés
