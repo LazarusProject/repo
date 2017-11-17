@@ -1066,6 +1066,32 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
         <platform>all</platform>    </extension>
 </addon>
 
+<addon id="plugin.video.tudomany"
+	name="YouTube tudomány"
+	version="1.0.1"
+	provider-name="heimdallr">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Tudomány Youtube video Add-on</summary>
+    <description>Egy sok feltöltést tatalmazó youtube csatornához fronted.(szokyroby),(kotsip) féle videokkal kiegészitve.</description>
+	<news>Régebbi Hogyan készült hozzáadva.</news>
+    <platform>all</platform>
+
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.covenanthu" version="1.1.10" name="CovenantHU" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
