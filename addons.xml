@@ -78,39 +78,42 @@
 	</extension>
 </addon>
 
-<addon id="plugin.audio.onlinestream" version="1.0.0" name="Online Stream" provider-name="aky01">
+<addon id="plugin.video.onlinestream.hu" version="1.1.1" name="Online Stream" provider-name="aky01">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>audio</provides>
+		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Online Stream addon for Kodi</summary>
-		<description lang="en">OnlineStream.hu Magyarország legnagyobb stream toplistája már Kodi-n is.</description>
+		<description lang="en">A legtöbb magyar rádió és TV már KODI-n is!</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<website>http://www.onlinestream.hu</website>
+		<website>https://onlinestream.hu/</website>
 		<platform>all</platform>
 		<language></language>
 		<forum></forum>
 		<email></email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>- Cache javítás</news>
 	</extension>
 </addon>
 
-﻿<addon id="repository.movieshark" version="2.2" name="MovieShark repository" provider-name="MSrepo">
-	<extension point="xbmc.addon.repository" name="MovieShark repository 2.2">
-		<dir>
-			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>
-		<info compressed="false">http://repo.movieshark.xyz/addons.xml</info>
-		<checksum>http://repo.movieshark.xyz/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.movieshark.xyz/plugins/</datadir>
+<addon id="repository.movieshark" version="2.4" name="MovieShark Repository" provider-name="MSrepo">
+	<extension point="xbmc.addon.repository" name="MoviShark Repository">
+        <info compressed="false">https://raw.githubusercontent.com/LazarusProject/repo/ms_repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/LazarusProject/repo/ms_repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/LazarusProject/repo/ms_repo</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MovieShark Repository 2.2</summary>
-		<description lang="en">Az MSREPO Magyarország legnagyobb KODI-hoz fejlesztett magyar nyelvű kiegészítőinek tárolóhelye. Itt megtalálod a legismertebb média tartalmait más hasznos kiegészítőkkel egyetemben. A repository semmilyen illegális anyagot nem tartalmaz, az információk nem egyediek – bárki által szabadon hozzáférhetők az interneten. A legtöbb kiegészítőnél maga a jogtulajdonos tette lehetővé a tartalmak ingyenes megtekintését. A telepítésüket senkinek nem ajánljuk, csupán kisérleti jelleggel készültek. A használatukból eredő következményekért a felelősség a felhasználót terheli. </description>
+		<summary>MovieShark Repository 2.4</summary>
+		<description >Az MSREPO Magyarország legnagyobb KODI-hoz fejlesztett magyar nyelvű kiegészítőinek tárolóhelye. Itt megtalálod a legismertebb média tartalmait más hasznos kiegészítőkkel egyetemben. A repository semmilyen illegális anyagot nem tartalmaz, az információk nem egyediek – bárki által szabadon hozzáférhetők az interneten. A legtöbb kiegészítőnél maga a jogtulajdonos tette lehetővé a tartalmak ingyenes megtekintését. A telepítésüket senkinek nem ajánljuk, csupán kisérleti jelleggel készültek. A használatukból eredő következményekért a felelősség a felhasználót terheli.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -188,22 +191,39 @@ Az addon használatához MyTV előfizetés szükséges!</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.euronews.com" version="1.1.0" name="Euronews" provider-name="lambda">
+<addon id="plugin.video.euronews.com" version="1.1.3" name="Euronews" provider-name="Twilight0">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0" />
-		<import addon="script.module.lamlib" version="1.0.0" />
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.tulip" version="1.2.5"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Euronews addon for Kodi</summary>
-		<description lang="en">Euronews, the most watched news channel in Europe, covers international news in various languages.[CR]With 400 journalists from more than 30 nationalities, Euronews offers a unique, independent and totally impartial perspective on world events.[CR]Available languages: English, French, German, Greek, Hungarian, Italian, Portuguese, Russian, Spanish, Turkish and Ukrainian</description>
-		<disclaimer lang="en">This addon is not published nor endorsed by euronews.com</disclaimer>
+		<summary lang="en_GB">Euronews addon for Kodi</summary>
+		<description lang="en_GB">Euronews, the most watched news channel in Europe, covers international news in various languages.[CR]With 400 journalists from more than 30 nationalities, Euronews offers a unique, independent and totally impartial perspective on world events.[CR]Available languages: English, French, German, Greek, Hungarian, Italian, Portuguese, Russian, Spanish, Turkish and Ukrainian</description>
+		<disclaimer lang="en_GB">This addon is not published nor endorsed by euronews.com</disclaimer>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<source>https://github.com/lambda81/plugin.video.euronews.com</source>
+		<source>https://github.com/Twilight0/plugin.video.euronews.com</source>
 		<website>http://www.euronews.com/</website>
-		<news>- Tweaked sections[CR]- Added add-on screenshots</news>
+        <size>712838</size>
+		<news>
+[B]1.1.3[/B]
+- Various cosmetics &amp; tweaks in addon.xml
+
+[B]1.1.2[/B]
+- Fixed Live Resolver
+
+[B]1.1.1[/B]
+- Rebased to utilize tulip libraries
+
+[B]1.1.0[/B]
+- Tweaked sections
+- Added add-on screenshots
+
+[B]1.0.0[/B]
+- Initial version
+		</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -212,7 +232,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<platform>all</platform>
-		<language></language>
+		<language>en</language>
 		<forum></forum>
 		<email></email>
 	</extension>
@@ -234,9 +254,10 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.indavideo" name="Indavideó" version="1.1.9" provider-name="Murdock">
+<addon id="plugin.video.indavideo" name="Indavideó" version="1.1.20" provider-name="Murdock, modded: KIZS">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -391,7 +412,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.rtlmost" name="RTL Most!" version="0.0.8" provider-name="just-some-random-ninja">
+<addon id="plugin.video.rtlmost" name="RTL Most!" version="0.0.10" provider-name="just-some-random-ninja">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -406,7 +427,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.cartoonshark" version="1.0.2" name="Cartoon Shark" provider-name=" - provider name goes here - ">
+<addon id="plugin.video.cartoonshark" version="1.0.3" name="Cartoon Shark" provider-name=" - provider name goes here - ">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
@@ -418,10 +439,15 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 		<summary lang="en">Cartoon Shark</summary>
 		<description lang="en">Szinkronos mesék és mesefilmek online.</description>
 		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>- Classic Cartoons forras javitva[CR]- Keresesi opcio hozzaadva a Classic Cartoonshoz[CR]- A beallitasokban modosithato a Classic Cartoonson elerheto tartalmak minosege es rendezesi modja</news>
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.0" provider-name="Lex Murphy">
+<addon id="plugin.video.moviesharkcc" name="MovieSharkCC" version="1.0.3" provider-name="Lex Murphy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="3.0.0"/>
@@ -439,7 +465,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 
 <addon id="service.cardshare.downloader"
        name="Cardshare M3U Downloader"
-       version="1.1.1"
+       version="1.1.2"
        provider-name="Squidward Tentacles">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -535,38 +561,6 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodusplus" version="1.6.0" name="Exodus+" provider-name="">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.exodus.artwork" version="1.0.4" />
-		<import addon="script.exodusplus.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="exodus.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus+</summary>
-		<description lang="en">Exodus kiegészítő magyar kiszolgálókkal kiegészítve.</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<platform>all</platform>
-		<news></news>
-	</extension>
-</addon>
-
-<addon id="script.exodusplus.metadata" version="1.0.0" name="Exodus+ Metadata" provider-name="aky01">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Exodus+ Addon</summary>
-		<description>Metadata for Exodus+ are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.videa" name="Videa kiemelt csatornak" version="0.0.2" provider-name="kardossandor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -608,18 +602,6 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 		<summary lang="en">Rádiók.eu archívum</summary>
 		<language>en</language>
 		<description lang="en">Rádiók.eu archívum</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Addon</summary>
-		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -682,7 +664,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.animeaddicts" name="Animeaddicts" version="1.4.1" provider-name="KIZS">
+<addon id="plugin.video.animeaddicts" name="Animeaddicts" version="1.4.3" provider-name="KIZS">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.requests"/>
@@ -697,7 +679,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.m4sport" name="M4 Sport" version="1.0.3" provider-name="Sheldon J. Plankton">
+<addon id="plugin.video.m4sport" name="M4 Sport" version="1.0.5" provider-name="MNelje">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -712,7 +694,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.movieshark" name="Movie Shark" version="2.0.2" provider-name="Murdock - vazzemiko">
+<addon id="plugin.video.movieshark" name="Movie Shark" version="2.0.5" provider-name="Murdock - vazzemiko">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="3.0.0"/>
@@ -726,6 +708,7 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 		<summary lang="en">Movie Shark Video Add-on</summary>
 		<description lang="hu">Nézd meg a legfrissebb filmeket és sorozatokat a Movie Shark segítségével. Ez az első Kodi kiegészítő amivel egyszerűen férhetsz hozzá magyar nyelvű vagy magyar feliratos tartalmakhoz. Itt nincsenek idegesítő reklámok és felugráló ablakok. Használhatod bármilyen eszközön, ahol a Kodi elérhető.</description>
 		<description lang="en">Nézd meg a legfrissebb filmeket és sorozatokat a Movie Shark segítségével. Ez az első Kodi kiegészítő amivel egyszerűen férhetsz hozzá magyar nyelvű vagy magyar feliratos tartalmakhoz. Itt nincsenek idegesítő reklámok és felugráló ablakok. Használhatod bármilyen eszközön, ahol a Kodi elérhető.</description>
+		<news>- Linkfeloldás javítva</news>
 	</extension>
 </addon>
 
@@ -744,3 +727,107 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 	</extension>
 </addon>
 </addons>
+
+<addon id="plugin.video.exoshark" version="1.1.9" name="ExoShark" provider-name="ExoShark">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.exoshark.artwork" version="1.0.0" />
+		<import addon="script.exoshark.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.32" />
+		<import addon="script.module.metahandler" version="2.9.0" />
+		<import addon="script.module.requests" version="2.12.4" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exoshark.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ExoShark</summary>
+		<summary lang="hu">ExoShark</summary>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>- Új kiszolgáló (ONFILMEK)
+- ONLINEPONT kiszolgáló frissítés
+- Covenant 1.1.29-1.1.30 és Covenant Module frissítések:
+--- Új angol kiszolgálók (ULTRAHD, XMOVIES)
+--- Angol kiszolgáló frissítések (ALLRLS, DDLVALLEY, FLIXANITY, FMOVIED6, OPENLOADMOVIES, POPCORN, PUTLOCKER, RELEASEBB)</news>
+	</extension>
+</addon>
+
+<addon id="script.exoshark.artwork" version="1.0.1" name="ExoShark Artwork" provider-name="double beretta">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the ExoShark Addon</summary>
+		<description>Themes for ExoShark are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.exoshark.metadata" version="1.0.0" name="ExoShark Metadata" provider-name="double beretta">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the ExoShark Addon</summary>
+		<description>Metadata for ExoShark are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.metahandler" 
+     name="metahandler" 
+     version="3.0.2" 
+     provider-name="Eldorado, jsergio">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="script.module.myconnpy" version="1.1.6"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.12" provider-name="Eldorado, tknorris, tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>

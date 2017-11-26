@@ -1,6 +1,0 @@
-V1.0.1
-- Aktualis musor a csatornalistaban elerheto
-- Musorujsag elerheto a context menubol
-
-V0.0.1
-- Elso verzio

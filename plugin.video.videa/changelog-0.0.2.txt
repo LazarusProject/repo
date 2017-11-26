@@ -1,5 +1,0 @@
-0.0.2
-- Forras valtozas
-
-0.0.1
-- Elso kiadas

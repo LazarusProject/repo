@@ -1,0 +1,20 @@
+[B]1.1.3[/B]
+- Mufaj szerinti lastazas opcio
+
+[B]1.1.2[/B]
+- ABC listazas javitva
+- Bejelentkezes megszuntetve
+
+[B]1.1.1[/B]
+- ABC listazas betunkent
+
+[B]1.1.0[/B]
+- Nezet valaszto menu
+- Nyitouzenet modositasa
+- Evad sorbarendezes javitva
+- Ikonok lecserelve
+- Teljesitmeny optimalizalas
+- Hibajavitasok
+
+[B]1.0.0[/B]
+- Initial version

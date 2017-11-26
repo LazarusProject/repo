@@ -1,0 +1,30 @@
+V1.4
+- hibajavítások
+
+V1.3
+- mostantól lejátszás közben is megnézhető a letöltés állapota (főképernyőre kilépve például)
+- a beállításokban megadható, hogy csak az X napnál régebbi állományokat törölje (0 < X < 30) 
+
+V1.2
+- Transmission kezelés kezdetleges változata
+- uTorrent kezelés kezdetleges változata
+- ideiglenes könyvtár törlésének kérése beállításból jön
+
+V1.1
+- windowsos lejátszás javítása
+
+V1.0
+- beállítások bekötése a főkönyvtárba.
+- hibás vagy kitöltetlen beállítások miatt ne keveredjen végtelen ciklusba.
+- "first_piece" változónak default értékadás, hogy ne dobja el magát Windows-on
+- rendes session kezelés bevezetése
+- film és sorozat ajánlók szétválasztása
+
+V.8
+A windows-os / jelek miatt.
+
+V.075
+Mostantól a libtorrant addon-t használja, valamint ki lett vezetve az "elonyMB" a beállításokba.
+
+V.0.65
+BitHUmen oldalán ajánlott filmek, keresés és online TV adások. Ékezetes keresés nem működik, használd ékezet nélkül! Libtorrent kell hozzá (külön kell feltenni az op.rendszerben)
