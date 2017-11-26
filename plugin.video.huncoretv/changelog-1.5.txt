@@ -1,0 +1,44 @@
+V1.5
+- hibajavítások
+
+V1.4
+- mostantól lejátszás közben is megnézhető a letöltés állapota (főképernyőre kilépve például)
+- a beállításokban megadható, hogy csak az X napnál régebbi állományokat törölje (0 < X < 30)
+- keresésnél üresen entert ütve mindent lehoz és lehet "böngészni" a filmek között (ez mondjuk eddig is így volt, csak nem emeltem ki)
+
+V1.3.1
+- apróbb javítások
+
+V1.3
+- uTorrent-nek is át tudja adni a torrent fájlt
+
+V1.2
+- ideiglenes könyvtár törlésének kérése beállításból jön
+- Transmission kezelés kezdetleges változata
+
+V1.1
+- windowsos lejátszás javítása
+
+V1.0
+- rendes session kezelés bevezetése
+- film és sorozat ajánlók szétválasztása
+
+V0.9
+- keresésnél cimkék bekötése (vígjáték, dráma, stb.)
+- "logging.captureWarnings" kiszedése, hogy jó legyen OSX alatt.
+- beállítások bekötése a főkönyvtárba.
+- hibás vagy kitöltetlen beállítások miatt ne keveredjen végtelen ciklusba.
+- "first_piece" változónak default értékadás, hogy ne dobja el magát Windows-on
+- felesleges kódrészletek kigyepálása
+
+V0.8
+- a windows-os / jelek miatt
+
+V0.75
+- mostantól a libtorrent addon-t használja, valamint ki lett vezetve az "elonyMB" a beállításokba
+
+V0.7
+- működik az ékezetes keresés
+
+V0.65
+- az nCore oldalán ajánlott filmek és film keresés. Ékezetes keresés nem működik, használd ékezet nélkül! Libtorrent kell hozzá (külön kell feltenni az op.rendszerben)

@@ -1,0 +1,8 @@
+V1.2.2
+- torrent file felolvasása megváltozott (Mohan Raj Rajamanickam kódját építettem be)
+
+V1.1.1
+- megváltozott html lekövetése 
+
+V1.0.0
+- Első megvalósítás

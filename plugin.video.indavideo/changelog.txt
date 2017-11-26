@@ -1,8 +1,3 @@
-V1.1.20
-KIZS: mostantól az urlresolver addon-t használja
-V1.1.10
-- Hiba javitas
-
 V1.1.9
 - Login fejlesztes
 - Karakterkorlat hiba javitva

@@ -1,0 +1,28 @@
+[B]1.0.6[/B] (04-15-2017)
+- Changed fixed addon_handle var to dynamic ones
+- Removed Kodi cache folders, because of the always up to date list
+
+[B]1.0.5[/B] (04-13-2017)
+- Bugfixes
+
+[B]1.0.4[/B] (04-13-2017)
+- Fix a bug that caused an exception with old Kodis
+
+[B]1.0.3[/B] (04-12-2017)
+- User-Agent change
+- Added settings option to select default stream Quality, instead of using the Quality selector
+- Got rid of the ugly errors in the Kodi log regarding "Can't resolve mime-type of link"
+
+[B]1.0.2[/B] (04-10-2017)
+- Bugfixes
+   - The addon Can now handle empty Kodi URL params
+   - Fixed  addon settings page for older Kodi support
+
+[B]1.0.1[/B] (04-10-2017)
+- Added token cache
+- Added option to change channel titles to ChannelName, TVProgram and ChannelName+TVProgram
+- Updated QualitySelector's text values  
+
+[B]1.0.0[/B] (04-09-2017)
+- Initial release
+

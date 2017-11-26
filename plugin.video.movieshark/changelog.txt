@@ -1,9 +1,3 @@
-V2.0.5
-- Linkfeloldas javitva
-
-V2.0.4
-- Captcha feloldas
-
 V2.0.3
 - Hibajavitas
 

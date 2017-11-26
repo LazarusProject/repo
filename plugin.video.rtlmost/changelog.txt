@@ -1,0 +1,29 @@
+0.0.9
+- Forras valtozas (video URL a videok helyett pl. az X-Faktor 2017 eseten)
+
+0.0.8
+- Forras valtozas (Teljes adasok almenu)
+
+0.0.7
+- Tobb reszletbol allo epizodok lejatszasa
+
+0.0.6
+- Epizodlistak gyorsitotarazasa (sok epizodot tartalmazo sorozatoknal gyorsitja a betoltest)
+  Gyorsitotar torlese a fomenubol tortenik fomenu gombok barmelyikere job gommbal kattintva (kedvenceket, megtekintett statuszokat nem torli)
+
+0.0.5
+- Kedvencek menu
+- Megtekintett statusz hozzaadasa/torlese epizod listaban (lejatszott epizodokat automatikusan jeloli)
+- Lejatszasi lista
+
+0.0.4
+- Forras valtozas
+
+0.0.3
+- Forras valtozas
+
+0.0.2
+- Fokusz, BK ures mappa javitva
+
+0.0.1
+- Elso kiadas

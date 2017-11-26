@@ -1,0 +1,41 @@
+V1.0.6
+- Hibajavitas
+
+V1.0.5
+- Forras valtozas
+
+V1.0.4
+- Hibajavitasok
+
+V1.0.2
+- EGP idoeltolas beallithato elo csatornaknal
+- Napi musor elerheto context menubol
+
+V1.0.1
+- Forras valtozas
+
+V0.0.9
+- Musor info elo kozvetiteseknel
+- Beallithato alapertelmezett felbontas
+
+V0.0.8
+- Forras valtozas
+
+V0.0.7
+- Forras valtozas
+
+V0.0.6
+- Tv musoroknal es Elo TV csatornaknal beallithato felbontas
+
+V0.0.4
+- NAVA forras valtozott
+- Frodo tamogatas
+
+V0.0.3
+- NAVA musorok listazasa csatorna, mufaj szerint
+
+V0.0.2
+- Atlatszo ikon lecserelve
+
+V0.0.1
+- Elso verzio

@@ -1,0 +1,57 @@
+V.1.4.3
+- Keresés javítása.
+
+V.1.4.2
+- Keresés javítása.
+
+V.1.4.1
+- Két automatikus adatbázis frissítés között minimum 3 percenek el kell telnie (csökkentve az animeaddicts.hu terheltségét).
+
+V.1.4.0
+- Saját adatbázis használat SQLite helyett (androidos Kodi 17 miatt)
+
+V.1.3.5
+- Kodi 17 kompatibilitás
+
+V.1.3
+- "hasonlónak jelölt művek" és "kapcsolódó művek"
+
+V.1.2
+- Megjelennek a felhasználó saját listái
+
+V.1.1
+- hibajavítás: fullHD filmeknél HD helyett fullHD-t játszott le, SD helyett pedig semmit
+- A beállításokban mostantól be lehet állítani, hogy FullHD, HD vagy SD minőséget szeretnénk. Ha nincs FullHD tartalom, akkor automatikusan HD-t játszik helyette.
+
+V.1.0
+- hibajavítás: néhány filmnél nem hozta fel a részeket, így nem lehetett megnézni őket (a javításhoz adatbázis frissítése szükséges!)
+
+V.0.9
+- az aktuális projekteket rendesen frissítse induláskor
+
+V.0.8
+- hibajavítás (legelső elinduláskor ne dobjon hibát)
+- beállítható, hogy ne on-line, hanem előre letöltve játsza le a filmeket
+
+V.0.7
+- Letöltés nélküli, on-line lejátszás
+- HD videók lejátszásának a lehetősége (beállításokban állítható)
+
+V.0.6
+- Adatbázis verziózás bevezetése
+- Mostantól a "Befejezett" és az "Aktuális" könyvtár is adatbázisból jön
+
+V.0.5
+- Adatbázis javítgatások
+
+V.0.4
+- Hibajavítás
+
+V.0.3
+- Keresés
+
+V.0.2
+- Helyi adatbáziskezelés és kategóriák szerinti csoportosítás
+
+V.0.1
+- Animék az animeaddicts.hu oldalról, első megvalósítás

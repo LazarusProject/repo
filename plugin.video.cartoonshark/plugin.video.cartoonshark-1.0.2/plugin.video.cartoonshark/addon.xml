@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cartoonshark" version="1.0.2" name="Cartoon Shark" provider-name=" - provider name goes here - ">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Cartoon Shark</summary>
+		<description lang="en">Szinkronos mesék és mesefilmek online.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
