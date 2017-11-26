@@ -1,0 +1,23 @@
+V1.0.5
+- Elo kozvetites javitva
+
+V1.0.4
+- Hibajavitasok
+
+V0.0.7
+- Forras valtozas
+
+V0.0.5
+- Elo kozvetitesek javitva
+
+V0.0.4
+- Hibajavitasok
+
+V0.0.3
+- Elo kozvetitesek javitva
+
+V0.0.2
+- Elo kozvetitesek m4sport.hu-rol
+
+V0.0.1
+- Elso verzio
