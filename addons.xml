@@ -726,7 +726,6 @@ Az addon használatához MyTV előfizetés szükséges!</description>
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
 
 <addon id="plugin.video.exoshark" version="1.1.9" name="ExoShark" provider-name="ExoShark">
 	<requires>
@@ -831,3 +830,4 @@ Az addon használatához MyTV előfizetés szükséges!</description>
         <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
+</addons>
