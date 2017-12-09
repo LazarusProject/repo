@@ -1,4 +1,11 @@
-﻿[B]1.1.9[/B]
+﻿[B]1.2.0[/B]
+- FILMTORNADO kiszolgáló frissítés
+- HDFILMEK kiszolgáló frissítés
+- Lehetőség van feliratkeresésre az epizódrészeknél
+- Új angol kiszolgálók (HASTI, HDMOVIESDOWN)
+- Angol kiszolgáló frissítések (123NETFLIX, ALLRLS, MYWATCHSERIES, PLOCKER, PUTLOCKER, POPCORN)
+
+[B]1.1.9[/B]
 - Új kiszolgáló (ONFILMEK)
 - ONLINEPONT kiszolgáló frissítés
 - Covenant 1.1.29-1.1.30 és Covenant Module frissítések:
