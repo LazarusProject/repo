@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.2.0" name="ExoShark" provider-name="ExoShark">
+<addon id="plugin.video.exoshark" version="1.2.2" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -27,11 +27,9 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- FILMTORNADO kiszolgáló frissítés
-- HDFILMEK kiszolgáló frissítés
-- Lehetőség van feliratkeresésre az epizódrészeknél
-- Új angol kiszolgálók (HASTI, HDMOVIESDOWN)
-- Angol kiszolgáló frissítések (123NETFLIX, ALLRLS, MYWATCHSERIES, PLOCKER, PUTLOCKER, POPCORN)</news>
+		<news>- Új kiszolgáló (MOOVIECC)
+- FILMEZZ kiszolgáló frissítés
+- A feliratkereső funkció nem működött egyes eszközökön - javítva</news>
 	</extension>
 </addon>
 
