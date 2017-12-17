@@ -1177,4 +1177,24 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="script.reboot_from_android" name="Reboot from Android" version="1.0.3" provider-name="csicsoka">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Reboot from Android</summary>
+		<summary lang="hu">Android indítása</summary>
+		<description lang="en">Reboot LibreELEC from Android system</description>
+		<description lang="hu">Újraindítás Androiddal</description>
+		<license>GNU General Public License, v2</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
 </addons>
