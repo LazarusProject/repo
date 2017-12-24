@@ -1089,4 +1089,24 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 		</assets>
 	</extension>
 </addon>
+
+<addon id="script.advanced_power_menu" name="Advanced Power Menu" version="1.0.1" provider-name="csicsoka">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Advanced Power Menu</summary>
+		<summary lang="hu">Kibővített Kikapcsoló Menű </summary>
+		<description lang="en">Suspend, Power Off, Reboot to Android, Reboot to LibreELEC, Restart KODI, Reload Skin, Teke Screenshot, LogOut user</description>
+		<description lang="hu">Alvó mód, Kikapcsolás, LibreELEC újraindítása, Android indítása, KODI újraindítása, Bőr újratöltése, Felhasználó kiléptetése.</description>
+		<license>GNU General Public License, v2</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
 </addons>
