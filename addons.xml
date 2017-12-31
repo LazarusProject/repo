@@ -1109,4 +1109,24 @@ For more information on setting up this addon see http://brianhornsby.com/kodi_p
 		</assets>
 	</extension>
 </addon>
+
+<addon id="script.tvlogo.downloader" version="0.0.11" name="TVLogo Downloader" provider-name="enen92">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pil" />"
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Download TV Logos for Kodi PVR</summary>
+    <description lang="en">This script lets you download logos for your tv stations from thelogodb.com.</description> 
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=233068</forum>
+    <website>http://www.thelogodb.com/</website>
+    <source>https://github.com/enen92/script.tvlogo.downloader</source>
+  </extension>
+</addon>
 </addons>
