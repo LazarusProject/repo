@@ -100,6 +100,37 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.MinDigTV" name="MinDigTV" version="1.0.8" provider-name='[B][COLOR green]Sherlock Holmes[/COLOR][/B]'>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.buggalo" version="1.1.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="hu">MinDigTV</summary>
+    <description lang="hu">Kiegészítő a MinDigTV streamek Kodin keresztüli eléréséhez.</description>
+    <disclaimer lang="hu">Nem hivatalos kiegészítő!</disclaimer>
+        <summary lang="en_gb">MinDigTV</summary>
+    <description lang="en_gb">Kiegészítő a MinDigTV streamek Kodin keresztüli eléréséhez.</description>
+    <disclaimer lang="en_gb">Nem hivatalos kiegészítő!</disclaimer>
+    <language>hu</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum>movieshark.tk</forum>
+    <website>movieshark.tk</website>
+    <email>helpdesk@movieshark.tk</email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.png</fanart>
+        <!--<screenshot></screenshot>-->
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.exoshark.artwork" version="1.0.1" name="ExoShark Artwork" provider-name="double beretta">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>

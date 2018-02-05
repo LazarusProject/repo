@@ -1,0 +1,32 @@
+[B]1.0.8[/B] (02-02-2018)
+- Bugfixes (channel related)
+- License update
+- API upgrade from v1 to v2
+
+[B]1.0.7[/B] (05-12-2017)
+- Built new icon for the new hbbTV option - Icons made by @blakey.
+
+[B]1.0.6[/B] (05-06-2017)
+- hbbTV menu added (Vods and Channels)
+- some code cosmetics
+
+[B]1.0.5[/B] (04-28-2017)
+- Added option 'Manual URL redirect' for Kodi versions older than 17.0
+
+[B]1.0.4[/B] (04-15-2017)
+- Addon icons moved to the server for easier updates
+
+[B]1.0.3[/B] (04-15-2017)
+- Icon update
+
+[B]1.0.2[/B] (04-14-2017)
+- Bugfixes
+- Added new main icons - Icons made by @blakey.
+
+[B]1.0.1[/B] (04-13-2017)
+- Fixed a bug that caused an exception with old Kodis
+- Added a brand new option, that extends the Videoteca menu
+- Modified addon descripiton (added recommended Kodi version)
+
+[B]1.0.0[/B] (04-12-2017)
+- Initial version
