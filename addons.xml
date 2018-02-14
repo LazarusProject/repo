@@ -375,6 +375,33 @@ adulthideout@yandex.com[/COLOR]
     </extension>
 </addon>
 
+<addon id="service.transmission"
+       name="Transmission"
+       version="8.2.30"
+       provider-name="csicsoka">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+Transmission (2.92) is a fast, easy and free BitTorrent client
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.yatp"
   version="3.3.2"
   name="Yet Another Torrent Player"
