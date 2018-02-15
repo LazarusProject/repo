@@ -131,6 +131,35 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.filmboxlivehu" name="FILMBOX LIVE Hungary" version="0.0.4" provider-name="Majide (Hun by NiCE)">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary lang="hu">Az SPI International előfizetéses VOD szolgáltatása</summary>
+    <summary lang="en">Subscription service of SPI International</summary>
+  	<description lang="hu">Élvezd a számtalan filmet, sorozatot és szórakoztató csatornát bárhol, bármikor a Filmbox Live-val!</description>
+    <description lang="en">In filmboxlive.com with only a single subscription you can enjoy great movies and exciting TV channels. From drama to thriller, action to comedy, award-winning productions to the ones you can watch with all your family. Watch anywhere and anytime you want - not only on your computer, but also on your smart TV at home, on your tablet during the break, on your smartphone while on the go. You do not need to pay again to watch the content on more than one device. With the same access credentials you can watch our content in all devices. Visual quality of our content is set automatically according to your internet speed and the devices you use.</description>
+  	<disclaimer lang="hu">Ez nem egy hivatalos kiegészítő! Ha elérhető egy hivatalos alkalmazás az eszközödön, akkor azt használd. A név, a logó és a márka az SPI International tulajdona, az elérhető tartalmak jogvédelem alatt állnak. Ez a Kodi plugin a GPL2 licence alá tartozik.</disclaimer>
+    <disclaimer lang="en">This is not an official addon! If an official app is available for your platform, use it instead of this addon. The name and the logo are a trademark of SPI International and the available content is subject to copyright and related rights. This Kodi addon is distributed under the GPL2 license.</disclaimer>
+  	<language>hu</language>
+  	<platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  	<forum>https://prohardver.hu/tema/kodi_xbmc_kiegeszito_magyar_nyelvu_online_filmekhe/friss.html</forum>
+  	<website>http://www.filmboxlive.com/hu/</website>
+  	<news>Első béta verzió, a kategóriák szerinti lebontás a filmlejátszás és a kereső műdödik. Az élő TV adások jelenleg le vannak tiltva és a filmben sem lehet léptetni.</news>
+  	<assets>
+	   <icon>resources/icon.png</icon>
+       <fanart>resources/fanart.jpg</fanart>
+       <screenshot>resources/screenshot-01.jpg</screenshot>
+       <screenshot>resources/screenshot-02.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="script.exoshark.artwork" version="1.0.1" name="ExoShark Artwork" provider-name="double beretta">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
