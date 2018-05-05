@@ -1,4 +1,58 @@
-﻿[B]1.2.2[/B]
+﻿[B]1.2.8[/B]
+- Hibajavítás: A forráskeresésnél a folyamat párbeszédablakon megjelentek a találatok,
+de a keresés végeztével 'Nincs elérhető adatfolyam' értesítés jelent meg. Javítva.
+- A környezeti menü előhívásával az IMDb Infóra kattintva megtekinthetők a legfontosabb IMDb-s információk
+- Új angol kiszolgálók (COOLMOVIEZONE, MYVIDEOLINK, VIDICS)
+- Angol kiszolgáló frissítések (FHDMOVIE, FILEPURSUIT, MOVIE4KORG)
+
+[B]1.2.7[/B]
+- MOZICLUB kiszolgáló frissítés
+- NETMOZI kiszolgáló frissítés
+- Választható linkfeloldó (URLResolver vagy ResolveURL - módosítható a beállításokban)
+- Trakt Könyvjelzők (lejátszási folyamat szinkronizálása a Trakttal - endegélyezhető a beállításokban)
+- Médiatárba történő importálás késleltetése (endegélyezhető a beállításokban)
+- A környezeti menü előhívásával a Megjelenésekre kattintva megtekinthetőek a külföldi DVD, VOD megjelenések
+- Új menüpont a Kedvenc sorozatok menüben: Trakt on Deck (a legutolsó 10 félbehagyott sorozatrész listázódik)
+- Kisebb hibajavítások
+- Új angol kiszolgálók (CINEMAMEGA, FULL4MOVIES, GEEKTV, HDMEGA, IWANNAWATCH, MOVIEWORLD, SCENERLS, VEXMOVIES, WSONLINE)
+- Angol kiszolgáló frissítések (FURK, FILEPURSUIT, PLOCKER, TVBOX, VUMOO, XMOVIES, YMOVIES)
+
+[B]1.2.6[/B]
+- A környezeti menü előhívásával a filmhez/sorozathoz hasonló tartalom kereshető
+- Forrásbetöltés korlátozása - a beállított kiszolgáló limit után betöltődnek a források (módosítható a beállításokban)
+- Speciális epizódok megjelenítése (bekapcsolható a beállításokban)
+- Csak prémium források megjelenítése opció (bekapcsolható a beállításokban)
+- Trakt Gyűjtemény automatikus szinkronizálása (bekapcsolható a beállításokban)
+- Kisebb hibajavítások
+- Új angol kiszolgálók (MOVIESERIESTV, MOVIEWATCHER)
+- FURK kiszolgáló (fejlesztés alatt)
+- Angol kiszolgáló frissítések (BEETV, CARTOONHD, CMOVIES, DLTUBE, EXTRAMOVIES, FLIXANITY, MOVIE4KIS, WATCHSERIES)
+Megjegyzés: A FURK kiszolgáló használatához regisztráció szükséges.
+
+[B]1.2.5[/B]
+- HDFILMEK kiszolgáló frissítés
+- MOZICSILLAG kiszolgáló eltávolítva (oka: a linkek a HDFILMEK kiszolgáló oldalára vannak átírányítva)
+- Új angol kiszolgálók (DLTUBE, EXTRAMOVIES, NINEMOVIES, SOAPTV)
+- Angol kiszolgáló frissítések (ALLRLS, CHILLAX, RELEASEBB, SERIESCR, SERIESCRAVINGS, WATCHFREE)
+Megjegyzés: A CHILLAX kiszolgáló használatához regisztráció szükséges.
+
+[B]1.2.4[/B]
+- MOZICLUB kiszolgáló frissítés
+- Új angol kiszolgálók (BOB, DAREWATCH, FHDMOVIE, FILMXY, IOMOVIES, VIOOZ)
+- Angol kiszolgáló frissítések (AFDAH, ALLRLS, BESTMOVIEZ, CMOVIES,
+MOVIEGO, POPCORN, SERIESCRAVINGS, SOLARMOVIE, VODLY, WATCH32, XMOVIES)
+
+[B]1.2.3[/B]
+- Új kiszolgáló (FILMEZEK)
+- FILMEZZ kiszolgáló frissítés
+- FILMGO kiszolgáló frissítés
+- SOROZATKATALOGUS kiszolgáló frissítés
+- IMDb listák listázása javítva
+- Új angol kiszolgálók (BEETV, CHILLAX, FILEPURSUIT, FILMBAROON, SERIESONLINE, SHOWBOX, VMOOVE, VUMOO)
+- Angol kiszolgáló frissítések (ALLRLS, CARTOONHD, CMOVIES, FLIXANITY, HASTI, MOVIE4KIS,
+MOVIESGOLD, PRIMEWIRE, SERIESCRAVINGS, SOLARMOVIE, WATCHSERIES, XWATCHSERIES)
+
+[B]1.2.2[/B]
 - Új kiszolgáló (MOOVIECC)
 - FILMEZZ kiszolgáló frissítés
 - A feliratkereső funkció nem működött egyes eszközökön - javítva

@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.exoshark" version="1.2.2" name="ExoShark" provider-name="ExoShark">
+﻿<addon id="plugin.video.exoshark" version="1.2.8" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
 		<import addon="script.exoshark.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.32" />
+		<import addon="script.module.resolveurl" version="5.0.07" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests" version="2.12.4" />
+		<import addon="script.module.beautifulsoup4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exoshark.py">
 		<provides>video</provides>
@@ -27,9 +29,11 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Új kiszolgáló (MOOVIECC)
-- FILMEZZ kiszolgáló frissítés
-- A feliratkereső funkció nem működött egyes eszközökön - javítva</news>
+		<news>- Hibajavítás: A forráskeresésnél a folyamat párbeszédablakon megjelentek a találatok,
+de a keresés végeztével 'Nincs elérhető adatfolyam' értesítés jelent meg. Javítva.
+- A környezeti menü előhívásával az IMDb Infóra kattintva megtekinthetők a legfontosabb IMDb-s információk
+- Új angol kiszolgálók (COOLMOVIEZONE, MYVIDEOLINK, VIDICS)
+- Angol kiszolgáló frissítések (FHDMOVIE, FILEPURSUIT, MOVIE4KORG)</news>
 	</extension>
 </addon>
 
